@@ -10,6 +10,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <header>
 <body>
+    <div id="nav-placeholder"></div>
+    <script>
+        fetch('../pages/nav.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('nav-placeholder').innerHTML = data;
+            })
+    </script>
     <img src="../images/concord.png" alt="Everett Theatre Logo" width="200" height="100">
     <nav>
         <p>Home</p>

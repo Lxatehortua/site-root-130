@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimazing Images</title>
+    <link href="../styles/nav.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cal+Sans&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Elite&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cal+Sans&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Elite&display=swap" rel="stylesheet">
+    <style>
+        .loki{
+            background-color: rgb(145, 164, 137);
+            width: 700px;
+            padding: 7px;
+            margin: 5px;
+            float: left;
+        }
+
+        .leroy{
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 5px;
+            color: rgb(255, 255, 255);
+            font-family: "Mulish", sans-serif;
+            
+        }
+
+        .clear{
+            clear: both;
+        }
+
+        h1 { 
+            color: rgb(57, 106, 78);
+            font-family: "Cal Sans", sans-serif;
+        } 
+
+        .leo {
+            background-color: rgb(223, 233, 220);
+            padding: 0px 5px 5px 0px;
+        }
+
+        .leo img {
+            vertical-align: top;
+            margin: 10px 5px 3px 6px;   
+        }
+
+    </style>
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+    <script>
+        fetch('../pages/nav.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('nav-placeholder').innerHTML = data;
+            })
+    </script>
+    <h1>Optimizing Images</h1>
+    <article class="loki">
+        <img src="../images/80.jpg" alt="80 percent jpg sample" width="500" height="auto">
+        <section class="leroy">
+            <p>80% JPG - 56K<br>The quality is verry good</p>
+        </section>
+    </article>
+    <article class="loki">
+        <img src="../images/40-.jpg" alt="40 percent jpg sample" width="500" height="auto">
+        <section class="leroy">
+            <p>40% JPG - 19K<br>Quality medium low</p>
+        </section>
+    </article>
+    <article class="loki">
+        <img src="../images/256.gif" alt="256 color gif sample" width="500" height="auto">
+        <section class="leroy">
+            <p>256 Color GIF - 120K<br>medium quality</p>
+        </section>
+    </article>
+    <article class="loki">
+        <img src="../images/64.gif" alt="64 color gif sample" width="500" height="auto">
+        <section class="leroy">
+            <p>64 Color GIF - 86K<br>The quality was low</p>
+        </section>
+    </article>
+    <article class="loki">
+        <img src="../images/8.gif" alt="8 color gif sample" width="500" height="auto">
+        <section class="leroy">
+            <p>8 Color GIF - 37K<br>The quality was very low</p>
+        </section>
+    </article>
+    <article class="loki">
+        <img src="../images/24.png" alt="PNG 24 sample" width="500" height="auto">
+        <section class="leroy">
+            <p>PNG 24 - 237K<br>Quality is really good</p>
+        </section>
+    </article>
+        <div class="clear"></div> 
+        <article class="leo">
+            <img src="../images/opi1.jpg" alt="mountai image" width="400" height="auto">
+            <img src="../images/opi2.jpg" alt="bee image" width="400" height="auto">
+            <img src="../images/opi3.jpg" alt="duck image" width="400" height="auto">
+            <img src="../images/opi4.jpg" alt="flowers image" width="400" height="auto">
+            <img src="../images/opi5.jpg" alt="bunny image" width="400" height="auto">
+            <img src="../images/opi6.jpg" alt="rocks image" width="400" height="auto">
+            <img src="../images/opi7.jpg" alt="trees image" width="400" height="auto">
+            <img src="../images/opi8.jpg" alt="land sacape image" width="400" height="auto">
+            <img src="../images/opi9.jpg" alt="lion image" width="400" height="auto">
+            <img src="../images/opi10.jpg" alt="flower image" width="400" height="auto">
+            
+        </article>
+    
+   
+    
+</body>
+</html>

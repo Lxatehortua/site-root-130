@@ -12,6 +12,14 @@
 		</style>
 	</head>
 	<body>
+		<div id="nav-placeholder"></div>
+		<script>
+			fetch('../pages/nav.html')
+				.then(response => response.text())
+				.then(data => {
+					document.getElementById('nav-placeholder').innerHTML = data;
+				})
+		</script>
 <h1 style="color: rgb(68, 0, 255);">Laura Atehortua</h1>
 <h2>EVCC - Graph130</h2>
 <h3>What degree/certificate program are you pursuing?</h3>

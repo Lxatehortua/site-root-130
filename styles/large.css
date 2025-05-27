@@ -1,0 +1,16 @@
+body {
+    background-image: url(../images/cascade_mountains-bg.jpg);
+}
+
+.container {
+    width: 60em;
+    background-color: rgba(240, 248, 255, 0.634);
+}
+
+.image-right {
+    float: right;
+}
+
+.image-left {
+    float: left;
+}

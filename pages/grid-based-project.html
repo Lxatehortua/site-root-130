@@ -7,46 +7,79 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
 </head>
 <body>
+    <div id="nav-placeholder"></div>
+    <script>
+        fetch('../pages/nav.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('nav-placeholder').innerHTML = data;
+            })
+    </script>
+
+    <main> 
+        <section>
+            <h1>Grid Based Project</h1>
+            <p>Graphic and web-designers work in the dimension that can be broken down to the rectangle, be it a page or a screen. This determines the shape of the grid as well. The lines within the grid are customized. Creators can build the grid themselves or rely on ready grid systems, while designers can use the same grid system throughout the whole piece of design, or create a new grid for each page to express their ideas.<a href="https://www.eleken.co/blog-posts/grid-layout-design-history-tips-and-best-examples" target="_blank">eleken.co</a></p>
+        </section>
+        <section class="pure-g">
+            <article class="pure-u-1-3">
+               <h2>SAY IF NOT A MOON</h2>
+               <P><i>Karen An-Hwei Lee</i></P>
+            <p>Gliding in circles, a moon slides in from the sea<br>
+            and will exit again at high tide.<br>
+            No larger than a fin, the moon scales our eucalyptus grove.<br>
+            The moon sleeps in a house where shadows are no longer in love.<br>
+            Moon on a woman's hand mirrors the carbon symmetries<br>
+            of the charcoal she holds sketching.<br>
+            Night is the new moon shorn for a letter<br>
+            mailed overseas. I hear no farewell nor see nostalgia<br>
+            in a lunar cloud.<br>
+            The low tide where a moon circles<br>
+            finned without gills<br>
+            swallows a star whose own name nobody knows.<br>
+            Eye without an iris<br>
+            observes a faded world without judgment<br>
+            waiting on God.<br>
+            What I did not hear this evening or failed to see:<br>
+            Not a moon humming<br>
+            this pupil of light.</p>
+            </article>
+            <article class="pure-u-1-3">
+                <h2>THE LIGHT BY THE BARN</h2>
+                 <p><i>William Stafford</i></p>
+                <p>The light by the barn that shines all night<br>
+                pales at dawn when a little breeze comes.<br>
+                A little breeze comes breathing the fields<br>
+                from their sleep and waking the slow windmill.<br>
+                The slow windmill sings the long day<br>
+                about anguish and loss to the chickens at work.<br>
+                The little breeze follows the slow windmill<br>
+                and the chickens at work till the sun goes down<br>
+                Then the light by the barn again.</p>
+            </article>
+            <article class="pure-u-1-3">
+                <h2>WHAT CAN BE GRASPED?</h2>
+                <p><i>Lewis Meyers</i></p>
+                <p>Out at the tricky intersection, oil trucks<br>
+                Stop dead on dimes, I listen in;<br>
+                That squealing halt, whose pulse beat doesn't catch<br>
+                As if, at the ringside of a fight,<br>
+                One's head and shoulders rode with every punch?<br>
+                Kafka's nerves would snap.</p>
+            </article>
+        </section>
+        <section class="pure-g">
+            <img src="../images/forest1.jpg" class="pure-u-1-4" alt="cove image">
+            <img src="../images/luna.jpg" class="pure-u-1-4" alt="cove image">
+            <img src="../images/sunset.jpg" class="pure-u-1-4" alt="cove image">
+            <img src="../images/forest1.jpg" class="pure-u-1-4" alt="cove image">
+
+        </section>
+        <section>
+            EvCC | Spring 2025 | Laura Atehortua 
+        </section>
+    </main>
+
     
 </body>
 </html>
-SAY IF NOT A MOON
-Karen An-Hwei Lee
-Gliding in circles, a moon slides in from the sea
-and will exit again at high tide.
-No larger than a fin, the moon scales our eucalyptus grove.
-The moon sleeps in a house where shadows are no longer in love.
-Moon on a woman’s handmirrors the carbon symmetries
-of the charcoal she holds – sketching.
-Night is the new moonshorn for a letter
-mailed overseas.I hear no farewell nor see nostalgia
-in a lunar cloud.
-The low tide where a moon circles
-finned without gills
-swallows a star whose own name nobody knows. Eye without an iris
-observes a faded worldwithout judgment
-waiting on God.
-What I did not hear this evening or failed to see:
-Not-a-moon humming
-this pupil of light.
-
-THE LIGHT BY THE BARN
-William Stafford
-The light by the barn that shines all night
-pales at dawn when a little breeze comes.
-A little breeze comes breathing the fields
-from their sleep and waking the slow windmill.
-The slow windmill sings the long day
-about anguish and loss to the chickens at work.
-The little breeze follows the slow windmill
-and the chickens at work till the sun goes down—
-Then the light by the barn again.
-
-WHAT CAN BE GRASPED?
-Lewis Meyers
-Out at the tricky intersection, oil trucks
-Stop dead on dimes, I listen in;
-That squealing halt, whose pulse-beat doesn’t catch
-As if, at the ringside of a fight,
-One’s head and shoulders rode with every punch?
-Kafka’s nerves would snap.

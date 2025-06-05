@@ -1,0 +1,14 @@
+body {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  nav ul {
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+  }
+  
+  .columns {
+    gap: 2em;
+  }

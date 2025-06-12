@@ -1,0 +1,49 @@
+/* PAGE 1: BRIGHT IDEA */
+.bright-idea {
+  background-image: url(../images/verden.jpg);
+  
+}
+
+.bright-idea .overlay {
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 50%;
+}
+
+.bright-idea h1 {
+  font-size: 72px;
+  font-weight: bold;
+}
+
+.bright-idea h1 span {
+  color: #022602;
+}
+
+.bright-idea blockquote {
+  font-style: italic;
+  margin: 30px 0;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.bright-idea .paragraph {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.bright-idea .mini-section h4 {
+  margin: 10px 0 5px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.bright-idea .mini-section p {
+  margin-bottom: 15px;
+  font-size: 14px;
+}

@@ -69,7 +69,7 @@ body {
   position: absolute;
   top: 170px;
   left: 10%;
-  color: #7b4d52;
+  color: #d4989f;
 }
 
 .cover-lines {
@@ -77,14 +77,14 @@ body {
   top: 150px;
   right: 5%;
   text-align: right;
-  color: #946465;
+  color: #ddb7b8;
   font-size: 1.2rem;
   font-weight: 500;
 }
 
 .cover-lines p {
   margin: 20px 0;
-  border-top: 2px solid #946465;
+  border-top: 2px solid #e8b5b6;
   padding-top: 10px;
   line-height: 1.2;
 }

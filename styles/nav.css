@@ -1,4 +1,12 @@
-.nav-bar {
+body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
     display: flex;
     position: relative;
     justify-content: space-between;
@@ -67,7 +75,7 @@
 
 @media screen and (max-width: 800px) {
 
-    .nav-bar {
+    .navbar {
         flex-direction: column;
         align-items:flex-start;  
     }
@@ -92,7 +100,7 @@
         text-align: center;
 
     }
-    .kiwi:active {
+    .kiwi.active {
         display: flex;
     }
     .nav a {
